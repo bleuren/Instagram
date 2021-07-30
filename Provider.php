@@ -20,7 +20,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['basic'];
+    protected $scopes = ['user_profile', 'user_media'];
 
     /**
      * {@inheritdoc}
